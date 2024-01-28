@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<!-- === Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+
+    <title>Responsive Navigation Menu Bar</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen'></i>
+            <span class="logo navLogo "><a href="#">
+                    <p> arte <span> magazin</span></p>
+                    <p>espace press</p>
+                </a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">
+                            <p> arte <span> magazin</span></p>
+                            <p>espace press</p>
+                        </a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li>
+                        <a href="#">grille tv</a>
+                    </li>
+                    <li>
+                        <a href="#">arte tv</a>
+                    </li>
+                    <li>
+                        <a href="#">cp/dp</a>
+                    </li>
+                    <li>
+                        <a href="#">arte mag</a>
+                    </li>
+                    <li>
+                        <a href="#">contact</a>
+                    </li>
+                    <li>
+                        <a href="#">compte</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                    <div class="searchToggle">
+                        <i class='bx bx-x cancel'></i>
+                        <i class='bx bx-search search'></i>
+                    </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="content-1">
+
+            <div class="left">
+                <div class="links">
+                    <a href="#">
+                        <p>semaine 4</p>
+                        <p>du 20 au 26 janvier </p>
+                    </a>
+                     <a href="#">
+                        <p>semaine 4</p>
+                        <p>du 20 au 26 janvier </p>
+                    </a>
+                    <a href="#">
+                        <p>semaine 4</p>
+                        <p>du 20 au 26 janvier </p>
+                    </a>
+                     <a href="#">
+                        <p>semaine 4</p>
+                        <p>du 20 au 26 janvier </p>
+                    </a>
+                </div>
+
+
+     <div class="carousel">           
+
+        <div class="c">
+
+            <input type="radio" name="a" id="cr-1" >
+            <label for="cr-1" style="--hue: 82"></label>
+            <div class="ci" style="--z: 4">
+            <h2 class="ch" style="--h: 23; --s: 80%; --l: 90%">Tesla recalls 200,000 vehicles over backup camera glitch</h2>
+            <img src="./images/240126-tesla-mb-1424-fd27e1.webp" alt="Snow on leafs">
+            </div>
+        
+            <input type="radio" name="a" id="cr-2">
+            <label for="cr-2" style="--hue: 23"></label>
+            <div class="ci" style="--z: 3">
+            <h2 class="ch" style="--h: 82; --s: 80%; --l: 90%">Man convicted of manslaughter in the killing of former New Orleans Saints star Will Smith</h2>
+            <img src="./images/240124-stanley-cup-lead-ac-1049p-ba73ca.webp" alt="Trees">
+            </div>
+        
+            <input type="radio" name="a" id="cr-3">
+            <label for="cr-3" style="--hue: 40"></label>
+            <div class="ci" style="--z: 2">
+            <h2 class="ch" style="--h: 40; --s: 100%; --l: 89%">Inside the White House, confidence grows that a strong economy will sell itself</h2>
+            <img src="./images/240126-joe-biden-se-222p-254848.webp" alt="Mountains and houses">
+            </div>
+            
+            <button class="prev-btn" onclick="moveSlide(-1)">&#9665;</button>
+            <button class="next-btn" onclick="moveSlide(1)">&#9655;</button>
+            
+        </div>
+        
+    </div>
+
+    <div class="dernieres">
+        <h3>dernieres</h3>
+
+        <div class="card">
+            <div class="card__header">
+              <img src="../images/240126-joe-biden-se-222p-254848.webp" alt="card__image" class="card__image" width="600">
+            </div>
+            <div class="card__body">
+              <h4>What's new in 2022 Tech</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                   Sequi perferendis molestiae non nemo doloribus.</p>
+            </div>
+            <div class="card__footer">
+              <div class="user">
+                <div class="user__info">
+                  <h5>Jane Doe</h5>
+                  <small>2h ago</small>
+                </div>
+              </div>
+              <div class="actions">
+                <!-- Add Font Awesome icons for like, share, and save -->
+               <a href="#"><i class="far fa-heart">15</i> &nbsp;</a> 
+                <a href="#"> <i class="far fa-bookmark">14</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__header">
+              <img src="../images/240126-joe-biden-se-222p-254848.webp" alt="card__image" class="card__image" width="600">
+            </div>
+            <div class="card__body">
+              <h4>What's new in 2022 Tech</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                   Sequi perferendis molestiae non nemo doloribus.</p>
+            </div>
+            <div class="card__footer">
+              <div class="user">
+                <div class="user__info">
+                  <h5>Jane Doe</h5>
+                  <small>2h ago</small>
+                </div>
+              </div>
+              <div class="actions">
+                <!-- Add Font Awesome icons for like, share, and save -->
+               <a href="#"><i class="far fa-heart">15</i> &nbsp;</a> 
+                <a href="#"> <i class="far fa-bookmark">14</i></a>
+              </div>
+            </div>
+          </div>
+
+          
+        
+
+    </div>
+
+            </div>
+            <div class="right-lives">
+
+                <figure class="snip1369 green">
+        
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample15.jpg" alt="pr-sample15" />
+                    <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample15.jpg" alt="pr-sample15" /></div>
+                    <figcaption>
+                      <h3>Jason Response</h3>
+                      <p>I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.</p>
+                    </figcaption><span class="read-more">
+                    
+                      Read More <i class="ion-android-arrow-forward"></i></span>
+                    <a href="#"></a>
+                </figure>
+                
+                <figure class="snip1369 green">
+        
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample15.jpg" alt="pr-sample15" />
+                    <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample15.jpg" alt="pr-sample15" /></div>
+                    <figcaption>
+                      <h3>Jason Response</h3>
+                      <p>I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.</p>
+                    </figcaption><span class="read-more">
+                    
+                      Read More <i class="ion-android-arrow-forward"></i></span>
+                    <a href="#"></a>
+                </figure>
+
+                <figure class="snip1369 green">
+        
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample15.jpg" alt="pr-sample15" />
+                  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample15.jpg" alt="pr-sample15" /></div>
+                  <figcaption>
+                    <h3>Jason Response</h3>
+                    <p>I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.</p>
+                  </figcaption><span class="read-more">
+                  
+                    Read More <i class="ion-android-arrow-forward"></i></span>
+                  <a href="#"></a>
+              </figure>
+            </div>
+
+        </div>
+
+
+        <div class="content-2">
+
+            <!-- cinema -->
+            <div class="cinema">
+                <h3>cinema</h3>
+
+                <div class="card">
+
+                    <img src="./cinema.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum rerum nesciunt placeat eius unde
+                        ratione architecto </p>
+                </div>
+                <div class="card">
+
+                    <img src="./cinema.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum rerum nesciunt placeat eius unde
+                        ratione architecto </p>
+                </div>
+                <div class="card">
+
+                    <img src="./cinema.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum rerum nesciunt placeat eius unde
+                        ratione architecto </p>
+                </div>
+                <div class="card">
+
+                    <img src="./cinema.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum rerum nesciunt placeat eius unde
+                        ratione architecto </p>
+                </div>
+
+                <!--add more content  -->
+
+            </div>
+
+
+
+            <!-- Documentaires -->
+            <div class="documentaires">
+                <h3>documentaires</h3>
+
+                <div class="card">
+
+                    <img src="./cinema.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum rerum nesciunt placeat eius unde
+                        ratione architecto </p>
+                </div>
+                <div class="card">
+
+                    <img src="./cinema.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum rerum nesciunt placeat eius unde
+                        ratione architecto </p>
+                </div>
+                <div class="card">
+
+                    <img src="./cinema.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum rerum nesciunt placeat eius unde
+                        ratione architecto </p>
+                </div>
+                <div class="card">
+
+                    <img src="./cinema.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum rerum nesciunt placeat eius unde
+                        ratione architecto </p>
+                </div>
+
+                <!--add more content  -->
+
+            </div>
+
+
+
+             <!-- Série et Fiction -->
+             <div class="Serie-et-Fiction">
+                <h3>Série et Fiction</h3>
+
+                <div class="card">
+
+                    <img src="./cinema.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum rerum nesciunt placeat eius unde
+                        ratione architecto </p>
+                </div>
+                <div class="card">
+
+                    <img src="./cinema.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum rerum nesciunt placeat eius unde
+                        ratione architecto </p>
+                </div>
+                <div class="card">
+
+                    <img src="./cinema.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum rerum nesciunt placeat eius unde
+                        ratione architecto </p>
+                </div>
+                <div class="card">
+
+                    <img src="./cinema.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum rerum nesciunt placeat eius unde
+                        ratione architecto </p>
+                </div>
+
+                <!--add more content  -->
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+<footer class="footer">
+    <div class="footer__addr">
+        <div class="footer__logo">
+            <p> arte <span> magazin</span></p>
+            <p>espace press</p>
+        </div>
+          
+      <h2>Contact</h2>
+      
+      <address>
+        5534 Somewhere In. The World 22193-10212<br>
+            
+        <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+      </address>
+    </div>
+    
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Media</h2>
+  
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Online</a>
+          </li>
+  
+          <li>
+            <a href="#">Print</a>
+          </li>
+              
+          <li>
+            <a href="#">Alternative Ads</a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="nav__item nav__item--extra">
+        <h2 class="nav__title">Technology</h2>
+        
+        <ul class="nav__ul nav__ul--extra">
+          <li>
+            <a href="#">Hardware Design</a>
+          </li>
+          
+          <li>
+            <a href="#">Software Design</a>
+          </li>
+          
+          <li>
+            <a href="#">Digital Signage</a>
+          </li>
+          
+          <li>
+            <a href="#">Automation</a>
+          </li>
+          
+          <li>
+            <a href="#">Artificial Intelligence</a>
+          </li>
+          
+          <li>
+            <a href="#">IoT</a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="nav__item">
+        <h2 class="nav__title">Legal</h2>
+        
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          
+          <li>
+            <a href="#">Terms of Use</a>
+          </li>
+          
+          <li>
+            <a href="#">Sitemap</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    
+    <div class="legal">
+      <p>&copy; 2019 ARTE MAGAZIN. All rights reserved.</p>
+
+    </div>
+  </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
