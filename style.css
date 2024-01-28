@@ -815,12 +815,27 @@ height: 200px;
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
+    border: 1px solid var(--bg-links-color);
+    /* background-color: var(--search-bar); */
+    
 }
+.searchBox .search-field input{
+  z-index: 200;
+  color: var(--bg-links-color);
+  opacity: 1;
 
+}
+.searchBox .search-field input::placeholder{
+  color: var(--bg-links-color);
+  
+}
 .searchToggle.active ~ .search-field{
     bottom: -74px;
     opacity: 1;
     pointer-events: auto;
+    z-index: 200;
+   
+  
 }
 
 .search-field::before{
@@ -844,7 +859,6 @@ height: 200px;
     border-radius: 4px;
     font-size: 14px;
     font-weight: 400;
-    color: var(--search-text);
     background-color: var(--search-bar);
 }
 
@@ -854,10 +868,12 @@ body.dark .search-field input{
 
 .search-field i{
     position: absolute;
-    color: var(--nav-color);
+    color: var(--text-color);
     right: 15px;
     font-size: 22px;
     cursor: pointer;
+    opacity: 1;
+    z-index: 200;
 }
 
 body.dark .search-field i{
