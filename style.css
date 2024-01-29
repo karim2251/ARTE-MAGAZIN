@@ -304,11 +304,13 @@ label.active {
   
   .prev-btn {
     position: absolute;
-    left: 2%;  }
+    left: 2%; 
+   }
   
   .next-btn {
     position: absolute;
-    left: 95%;  }
+    left: 95%;  
+  }
   
 
 /* end carousel */
@@ -1053,7 +1055,9 @@ body.dark .search-field i{
   padding: 0 !important;
   
 }
-
+.next-btn {
+  left: 93%;  
+}
 }
 
 @media (max-width: 494px) {
@@ -1062,6 +1066,9 @@ body.dark .search-field i{
 }
 .container .content-1 .left .links a p:nth-child(2){
     font-size: 6px;
+}
+.next-btn {
+  left: 90%;  
 }
 }
 
