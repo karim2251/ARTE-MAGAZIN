@@ -1355,9 +1355,7 @@ nav .nav-bar{
   flex-direction: column;
   align-items: center;
 }
-nav .nav-bar :is(.navLogo a ,.menu .logo-toggle .logo) p{
- 
-
+nav .nav-bar .navLogo a p{
   &:nth-child(1){
       font-size: 13px;
       font-weight: bold;
