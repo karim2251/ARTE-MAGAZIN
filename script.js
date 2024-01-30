@@ -81,6 +81,8 @@ function updateSlideVisibility() {
   });
 }
 
+
+
 function startAutoSlide() {
   intervalId = setInterval(() => {
     moveSlide(1); // Move to the next slide
