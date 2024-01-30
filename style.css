@@ -1355,14 +1355,14 @@ nav .nav-bar{
   flex-direction: column;
   align-items: center;
 }
-nav .nav-bar .navLogo a p{
-  &:nth-child(1){
+
+#logo{
       font-size: 13px;
       font-weight: bold;
       
   }
  
-}
+
 }
 
 /* footer */
