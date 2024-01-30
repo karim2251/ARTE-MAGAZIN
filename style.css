@@ -164,6 +164,8 @@ nav .nav-bar :is(.navLogo a ,.menu .logo-toggle .logo) p{
         p:nth-child(1){
             text-transform: capitalize;
             font-size: 17px;
+            font-weight: bold;
+
         }
         p:nth-child(2){
             text-transform: uppercase;
@@ -837,6 +839,7 @@ height: 200px;
   .footer__addr {
     margin-right: 1.25em;
     margin-bottom: 2em;
+
   }
   
   .footer__logo p{
@@ -847,6 +850,7 @@ height: 200px;
     &:nth-child(1){
         font-size: 20px;
         font-weight: bold;
+        color: #000000;
     }
     &:nth-child(2){
         color: rgba(80, 77, 77, 0.829);
@@ -1322,14 +1326,12 @@ nav .nav-bar{
 .content-2{
   padding: 0px 20px;
 }
-:is(.news-container-1,.news-container-3) .news-text{
-  /* align-items: start; */
-}
+
 }
 
 @media (max-width: 494px) {
   .container .content-1 .left .links a p:nth-child(1){
-    font-size: 10px;
+    font-size: 8px;
 }
 .container .content-1 .left .links a p:nth-child(2){
     font-size: 6px;
