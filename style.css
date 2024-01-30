@@ -91,6 +91,7 @@ nav .nav-bar :is(.navLogo a ,.menu .logo-toggle .logo) p{
     &:nth-child(1){
         font-size: 20px;
         font-weight: bold;
+        
     }
     &:nth-child(2){
         color: rgba(80, 77, 77, 0.829);
@@ -1354,7 +1355,16 @@ nav .nav-bar{
   flex-direction: column;
   align-items: center;
 }
+nav .nav-bar :is(.navLogo a ,.menu .logo-toggle .logo) p{
+ 
 
+  &:nth-child(1){
+      font-size: 13px;
+      font-weight: bold;
+      
+  }
+ 
+}
 }
 
 /* footer */
