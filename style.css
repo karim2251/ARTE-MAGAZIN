@@ -63,7 +63,6 @@ nav .nav-bar{
     position: relative;
     height: 100%;
     max-width: 1150px;
-   
     background-color: var(--body-color);
     margin: 0 auto;
     display: flex;
@@ -1493,12 +1492,16 @@ nav .nav-bar{
   flex-direction: column;
   /* align-items: center; */
 }
+
 .container .content-1 .right-lives .lives_cards{
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
+
+
+
 #logo{
       font-size: 13px;
       font-weight: bold;
