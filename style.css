@@ -59,8 +59,7 @@ body.dark nav{
 nav .nav-bar{
     position: relative;
     height: 100%;
-    max-width: 1000px;
-    width: 100%;
+    max-width: 1150px;
     background-color: var(--body-color);
     margin: 0 auto;
     display: flex;
