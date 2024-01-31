@@ -6,14 +6,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    transition: all 0.4s ease;
+    transition: all 0.2s ease;
 }
 
 
 /* ===== Colours ===== */
 :root{
     --body-color: #FFFFFF;
-    --body-bg: #E5E5E5;
+    --body-bg: #f7f6f6;
     --bg-links-color: #EA450E;
     --side-nav: #010718;
     --text-color: #000000;
@@ -23,11 +23,13 @@
     --menu-bg:rgba(182, 177, 177, 0.952);
     --text-footer:#cac9c9;
     --shadow:rgba(0, 0, 0, 0.1);
+
 }
 
 body{
     height: 100vh;
     background-color: var(--body-bg);
+
 }
 
 body.dark{
@@ -404,7 +406,7 @@ label.active {
           /* font-size: 1.5rem; */
           /* padding-top: 1rem; */
           /* padding-bottom: 2rem; */
-          transition: all 350ms ease-in-out;
+          /* transition: all 350ms ease-in-out; */
       }
 
       .card-creator {
@@ -613,7 +615,7 @@ height: 30px;
   }
   
   
-  
+
   .actions i.fa-bookmark::before {
     color: green; 
   } */
@@ -726,8 +728,8 @@ height: 30px;
 
 .container .content-1 .right-lives .lives_cards{
   display: flex;
-    flex-direction: column;
-  gap: 20px;
+  flex-direction: column;
+  gap: 15px;
   
 }
   /* .container .content-1 .right-lives .title::before{
@@ -737,6 +739,11 @@ height: 30px;
     top: 25px;
     width: 85px;
   } */
+
+
+
+
+  /* -------------- */
   .snip1369 {
     position: relative;
     overflow: hidden;
@@ -751,9 +758,7 @@ height: 30px;
     font-size: 16px;
   }
   .snip1369 * {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   }
   .snip1369 > img,
@@ -771,7 +776,6 @@ height: 30px;
   }
   .snip1369 figcaption,
   .snip1369 .image {
-    -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
   }
   .snip1369 .image {
@@ -853,7 +857,6 @@ height: 30px;
   .snip1369.hover figcaption,
   .snip1369:hover .image,
   .snip1369.hover .image {
-    -webkit-transition-delay: 0s;
     transition-delay: 0s;
   }
   .snip1369:hover figcaption,
@@ -867,12 +870,97 @@ height: 30px;
   .snip1369:hover p,
   .snip1369.hover p {
     opacity: 1;
-    -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
   }
 
   /* end right-lives */
+  .container .content-1 .right-lives .lives_cards .card_live{
+    width: 85;
+  
+    p{
+      width: 90%;
+    }
+  
+  }
 
+  .container .content-1 .right-lives .card{
+    width: 18rem;
+    background-color: var(--body-color);
+
+    .card-img-top {
+      /* Add styling for the card image */
+      width: 100%;
+      height: auto;
+      /* Add any additional styling for the image */
+    }
+    .card-body{
+      padding: 15px;
+      color: var(--text);
+
+      h4{
+        color: var(--bg-links-color);
+      }
+    }
+    .card_footer{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 15px;
+
+      .user__info small{
+
+        
+
+      }
+    }
+  }
+
+/* 
+  .container .content-1 .right-lives .lives_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+    .card_live{
+      width: 78%;
+      display: flex;
+        flex-direction: column;
+        gap: 15px;
+    background-color: var(--body-color);
+      padding-bottom: 20px;
+      span{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      .card__header{
+        object-fit: cover;
+        max-width: 100%;
+        
+  
+      }
+      .card__body{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 0px 10px;
+  
+        h4{
+          color: var(--bg-links-color);
+        }
+        p{
+          width: 100%;
+        }
+      }
+      .card__footer{
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  
+    
+  } */
+
+  /*  */
 
 
 /* content-2 */
@@ -1321,6 +1409,15 @@ nav .nav-bar{
     bottom: 70%;
   }
 
+  .container .content-1 .right-lives .card{
+    width: 14rem;
+    
+  }
+  .card_footer{
+    flex-direction: column;
+    justify-content: center;
+  }
+
 }
 @media (max-width: 883px) {
 
@@ -1387,7 +1484,7 @@ nav .nav-bar{
 }
 .container .content-1 .right-lives{
     flex-direction: column;
-    width: calc(100% - 15px);
+    width: calc(100% - 3px);
     margin-top: 15px;
 }
 .container .content-1 .right-lives .lives_cards{
@@ -1407,7 +1504,14 @@ nav .nav-bar{
 .container .content-1 .left .links a p:nth-child(2){
   font-size: 8px;
 }
-
+.container .content-1 .right-lives .lives_cards{
+  align-items: center;
+}
+.container .content-1 .right-lives .card{
+  /* width: 18.5rem; */
+  flex: 0 1 calc(52% - 20px);
+  
+}
 }
 
 @media (max-width: 600px) {
@@ -1508,7 +1612,15 @@ nav .nav-bar{
       
   }
  
+  .container .content-1 .right-lives .card{
+    width: 100%;
+    
+  }
 
+  .card_footer{
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 /* footer */
