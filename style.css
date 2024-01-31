@@ -49,6 +49,7 @@ nav{
     width: 100%;
     background-color: var(--body-color);
     z-index: 200;
+    
 }
 
 body.dark nav{
@@ -59,8 +60,8 @@ body.dark nav{
 nav .nav-bar{
     position: relative;
     height: 100%;
-    max-width: 1000px;
-    width: 100%;
+    max-width: 1150px;
+   
     background-color: var(--body-color);
     margin: 0 auto;
     display: flex;
@@ -1355,16 +1356,13 @@ nav .nav-bar{
   flex-direction: column;
   align-items: center;
 }
-nav .nav-bar :is(.navLogo a ,.menu .logo-toggle .logo) p{
- 
-
-  &:nth-child(1){
+#logo{
       font-size: 13px;
       font-weight: bold;
       
   }
  
-}
+
 }
 
 /* footer */
